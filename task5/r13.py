@@ -6,7 +6,9 @@ def alg(n):
     return r
 
 
-i = 0
+print(alg(28))
+
+i = 1
 while alg(i) <= 77:
     i += 1
 print(i)
