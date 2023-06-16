@@ -3,7 +3,7 @@ def n_to_p(n,p):
     alf = '0123456789'
     while n > 0 :
         r = alf[n % p] + r
-        n = n//p
+        n //= p
     return r
 
 
